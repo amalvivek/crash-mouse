@@ -7,6 +7,10 @@ import { RouterView } from 'vue-router'
 </template>
 
 <style>
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * {
   pointer-events: none;
   cursor: none;

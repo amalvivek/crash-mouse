@@ -2507,6 +2507,15 @@ postcss@^8.4.23, postcss@^8.4.32:
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
 
+postcss@^8.4.35:
+  version "8.4.35"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.35.tgz#60997775689ce09011edf083a549cea44aabe2f7"
+  integrity sha512-u5U8qYpBCpN13BsiEB0CbR1Hhh4Gc0zLFuedrHJKMctHCHAGrMdG0PRM/KErzAL3CU6/eckEtmHNB3x6e3c0vA==
+  dependencies:
+    nanoid "^3.3.7"
+    picocolors "^1.0.0"
+    source-map-js "^1.0.2"
+
 prelude-ls@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.2.1.tgz#debc6489d7a6e6b0e7611888cec880337d316396"
@@ -2707,6 +2716,11 @@ signal-exit@^4.0.1, signal-exit@^4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-4.1.0.tgz#952188c1cbd546070e2dd20d0f41c0ae0530cb04"
   integrity sha512-bzyZ1e88w9O1iNJbKnOlvYTrWPDl46O1bG0D3XInv+9tkPrxrN8jUUTiFlDkkmKWgn1M6CfIA13SuGqOa9Korw==
+
+single-spa-vue@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/single-spa-vue/-/single-spa-vue-3.0.0.tgz#4547355e8178d36ea5c7809fcdd45f5846d019a7"
+  integrity sha512-aw4KzaELuWo5pev117C0kSPtcj96vVbml+VssIKKs1aSGv2zA1nBK/mW/jlU8J1jEHlvxadBrDNDANVpqPrHxQ==
 
 slash@^3.0.0:
   version "3.0.0"
@@ -3073,6 +3087,11 @@ vite-node@1.0.4:
     picocolors "^1.0.0"
     vite "^5.0.0"
 
+vite-plugin-single-spa@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/vite-plugin-single-spa/-/vite-plugin-single-spa-0.6.0.tgz#a3d95f8d0810eef64cb4309a728d37e404eeaaee"
+  integrity sha512-ghUCK8i6ABYM1y8/dJ9Apncr9XW7ovUa+QMc7HveN0DowfGSEsAQ29JGO0mRNxdV+WU7anpSCZU6FsEIAOhLvg==
+
 vite-svg-loader@^5.1.0:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/vite-svg-loader/-/vite-svg-loader-5.1.0.tgz#b0b89bd8024bc0f707d0e8d7422446ac01576d94"
@@ -3080,13 +3099,24 @@ vite-svg-loader@^5.1.0:
   dependencies:
     svgo "^3.0.2"
 
-vite@^5.0.0, vite@^5.0.5:
+vite@^5.0.0:
   version "5.0.7"
   resolved "https://registry.yarnpkg.com/vite/-/vite-5.0.7.tgz#ad081d735f6769f76b556818500bdafb72c3fe93"
   integrity sha512-B4T4rJCDPihrQo2B+h1MbeGL/k/GMAHzhQ8S0LjQ142s6/+l3hHTT095ORvsshj4QCkoWu3Xtmob5mazvakaOw==
   dependencies:
     esbuild "^0.19.3"
     postcss "^8.4.32"
+    rollup "^4.2.0"
+  optionalDependencies:
+    fsevents "~2.3.3"
+
+vite@^5.1.1:
+  version "5.1.3"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-5.1.3.tgz#dd072653a80225702265550a4700561740dfde55"
+  integrity sha512-UfmUD36DKkqhi/F75RrxvPpry+9+tTkrXfMNZD+SboZqBCMsxKtO52XeGzzuh7ioz+Eo/SYDBbdb0Z7vgcDJew==
+  dependencies:
+    esbuild "^0.19.3"
+    postcss "^8.4.35"
     rollup "^4.2.0"
   optionalDependencies:
     fsevents "~2.3.3"
