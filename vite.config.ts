@@ -4,6 +4,7 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import svgLoader from 'vite-svg-loader'
 import vitePluginSingleSpa from 'vite-plugin-single-spa'
+import vercel from 'vite-plugin-vercel'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -13,7 +14,8 @@ export default defineConfig({
     vitePluginSingleSpa({
       type: 'mife',
       serverPort: 3002
-    })
+    }),
+    vercel()
   ],
   resolve: {
     alias: {
